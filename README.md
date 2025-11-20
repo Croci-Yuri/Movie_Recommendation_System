@@ -10,4 +10,25 @@ This project explores graph based recommendation models using the [MovieLens 20M
 
 📊 Each step of the project is available and documented through Jupyter notebooks and a structured Python pipeline, providing clear justifications, transparency, and evaluation results for the audience.
 
+<br>
+
+## 🗂️ Repository Structure  🗂️
+
+```
+movie-recommendation-system/
+│
+├── modules/                      # Python modules for modeling and utilities
+│   ├── data_analysis.py          # Bascic modules for data wrapping and EDA
+│
+├── notebooks/                    # Jupyter notebooks for data analysis and modeling
+│   ├── data_cleaning.ipynb       # Data loading, schema checks, and cleaning
+│   ├── eda_fe.ipynb              # Exploratory Data Analysis and feature engineering
+│   └── mem_collab_filtering.ipynb # Memory-based collaborative filtering (item-item and user-user)
+│
+├── .gitignore                    # Ignore rules for Git
+├── LICENSE                       # Project license (MIT)
+├── README.md                     # Project overview and instructions
+```
+
+
 
